@@ -4,6 +4,10 @@ import shutil
 import subprocess
 import sys
 
+caffe_root = '/home/ula/Ula/caffe_ssd/'
+sys.path.insert(0, caffe_root + 'python')  
+import caffe
+
 from caffe.proto import caffe_pb2
 from google.protobuf import text_format
 
